@@ -1,0 +1,74 @@
+body{
+    background-color: beige;
+}
+
+p{
+    font-size: 20px;
+    color: rgb(226, 168, 61);
+
+
+}
+
+h1,h2,h3,h4,h5{
+    color: pink;
+    text-decoration: underline;
+}
+
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#navbar{
+
+    background-color: palevioletred;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+
+#navbar a{
+
+    font-size: 30px;
+}
+
+img{
+    width:50%
+}
+
+
+
+
+
+.pink-text{
+    color:pink;
+}
+
+a:hover{
+    color:white
+
+}
+
+
+.half {
+    width: 50%
+    
+}
+
+
+.first{
+    color: darkgoldenrod;
+    font-weight: 500;
+}
+
+.second{
+    color: grey;
+    font-weight: 500;
+}
+
+
+.third{
+    color: brown;
+    font-weight: 500;
+}
