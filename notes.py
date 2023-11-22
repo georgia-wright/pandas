@@ -68,10 +68,52 @@ df.insert(3, "Ranking 2021", [3,1,2,4,11,5,7])
 
 # print(df.loc[0:3:1, "Languages": "Ranking 2020": 2])
 
-print(df[df<4])
+# print(df[df<4])
 
 
-print(df[df.select])
+# print(df[df.select])
+
+
+
+#______________________
+
+#Small data cleaning
+
+#_______________________
+
+# print(df)
+
+df.rename(columns = {"Ranking" : "Ranking 2023"}, inplace=True)
+
+# print(df)
+
+df.set_index("Languages", inplace=True)
+
+# print(df)
+
+# print(df["Ranking 2019"])
+
+
+# print(df.loc["HTML"])
+
+print(df.mean(axis=1))
+
+# print(df)
+
+print(df.mode(axis=1))
+
+print(df.median(axis=1))
+
+print(df.min(axis=1))
+
+print(df.max(axis=1))
+
+print(df.sort_values(by=["Ranking 2022"], ascending=False))
+
+
+
+
+
 
 
 
