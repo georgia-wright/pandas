@@ -1,17 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Vina+Sans&display=swap');
+
+
 body{
     background-color: beige;
 }
+    
 
 p{
     font-size: 20px;
     color: rgb(226, 168, 61);
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+
+h1{
+    color: pink;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
 
 
 }
 
-h1,h2,h3,h4,h5{
+h2{
     color: pink;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Vina Sans', sans-serif;
+
+}
+
+
+h3,h4,h5{
+    color: pink;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-decoration: underline;
+    text-transform: uppercase;
+    text-align: center;
+    font-style: italic;
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    font-family: 'Vina Sans', sans-serif;
+
 }
 
 * {
@@ -20,7 +55,7 @@ h1,h2,h3,h4,h5{
 
 #navbar{
 
-    background-color: palevioletred;
+    background-color:  rgb(226, 168, 61);
     text-align: center;
     display: flex;
     justify-content: space-evenly;
@@ -31,10 +66,15 @@ h1,h2,h3,h4,h5{
 #navbar a{
 
     font-size: 30px;
+    font-family: 'Vina Sans', sans-serif;
 }
 
 img{
-    width:50%
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:40%
+    
 }
 
 
@@ -71,4 +111,25 @@ a:hover{
 .third{
     color: brown;
     font-weight: 500;
+}
+
+
+.boxed{
+
+        margin: auto;
+        width: 60%;
+        border: 3px solid #ef9595;
+        padding: 10px;
+}
+
+.boxed_orange{
+    margin: auto;
+    width: 60%;
+    border: 3px solid rgb(226, 168, 61);
+    padding: 10px;
+    
+}
+
+.centre{
+    margin:auto
 }
